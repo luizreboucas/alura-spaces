@@ -1,0 +1,19 @@
+@import '../../../../styles/variaveis';
+
+.modal{
+    background-color: $azul-escuro;
+    border-radius: 20px;
+   
+
+   
+
+    &__imagem{
+      
+       width: 100%;
+       
+    }
+
+    &__icone{
+        cursor: pointer;
+    }
+}

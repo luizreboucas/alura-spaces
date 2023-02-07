@@ -1,0 +1,26 @@
+@import '../../styles/_variaveis.scss';
+
+.descricao{
+    color: $cor-do-texto;
+    font-family: $fonte-bold;
+    font-size: 2em;
+    margin-right: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+    background-color: $azul-rodape;
+    padding-top: 1rem;
+}
+
+.icones{
+    display: flex;
+    width: 10rem;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+}
